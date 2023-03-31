@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home">
+
+    <TextView
+        android:id="@+id/vtg_tv"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:shadowColor="#000000"
+        android:text="Enter Input Text:"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vtg_tv1"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <TextView
+        android:id="@+id/vtg_tv1"
+        android:layout_width="338dp"
+        android:layout_height="50dp"
+        android:background="@drawable/text_border"
+
+        android:paddingTop="15dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1100"
+        android:shadowDy="3000"
+        android:shadowRadius="100"
+        android:singleLine="true"
+        android:text="Voice To Gesture"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="270dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/text_border"
+
+        android:hint="Text"
+
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:shadowColor="#000000"
+        android:textSize="17dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vtg_tv1"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <TextView
+        android:id="@+id/vtg_tv3"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:shadowColor="#000000"
+        android:text="Result:"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="339dp"
+        android:layout_height="293dp"
+        android:background="@drawable/text_border"
+
+        android:tooltipText="Gesture View "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <Button
+        android:id="@+id/vtg_b2"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/text_border"
+        android:text="Back"
+        android:textAllCaps="true"
+        app:backgroundTint="#BA27A09C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/img_view"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/vtg_b"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/text_border"
+        android:text="Next"
+        android:textAllCaps="true"
+        app:backgroundTint="#BA27A09C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/vtg_b2"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/img_view"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/id1"
+        android:layout_width="62dp"
+        android:layout_height="61dp"
+        android:background="@drawable/text_border"
+        app:layout_constraintBottom_toTopOf="@+id/vtg_tv3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/vtg_tv"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <ImageButton
+        android:id="@+id/Search_button"
+        android:layout_width="56dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="3dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/text_border"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="fitCenter"
+        android:tooltipText="Search "
+        app:layout_constraintBottom_toTopOf="@+id/vtg_tv3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id1"
+        app:layout_constraintTop_toBottomOf="@+id/vtg_tv"
+        app:layout_constraintVertical_bias="0.36"
+        app:srcCompat="@drawable/seachicon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

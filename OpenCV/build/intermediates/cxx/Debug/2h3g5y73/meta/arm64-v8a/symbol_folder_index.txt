@@ -1,0 +1,1 @@
+C:\Users\Pradeep Mishra\AndroidStudioProjects\SignMateApp\OpenCV\build\intermediates\cxx\Debug\2h3g5y73\obj\arm64-v8a

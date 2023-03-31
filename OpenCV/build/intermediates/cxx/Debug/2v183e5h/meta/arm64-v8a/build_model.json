@@ -1,0 +1,171 @@
+{
+  "abi": "ARM64_V8A",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "C:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\.cxx\\Debug\\2v183e5h\\arm64-v8a",
+  "soFolder": "C:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\build\\intermediates\\cxx\\Debug\\2v183e5h\\obj\\arm64-v8a",
+  "soRepublishFolder": "C:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "abiPlatformVersion": 24,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared"
+    ],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": [
+      "opencv_jni_shared"
+    ],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "C:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\.cxx",
+      "intermediatesBaseFolder": "C:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\build\\intermediates",
+      "intermediatesFolder": "C:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\build\\intermediates\\cxx",
+      "gradleModulePathName": ":OpenCV",
+      "moduleRootFolder": "C:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV",
+      "moduleBuildFile": "C:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\build.gradle",
+      "makeFile": "C:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "D:\\ndk\\android-ndk-r25c",
+      "ndkVersion": "25.2.9519653",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 19,
+        "max": 33,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31,
+          "Sv2": 32,
+          "Tiramisu": 33
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "D:\\ndk\\android-ndk-r25c\\build\\cmake\\android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "C:\\Users\\Pradeep Mishra\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.18.1"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "D:\\ndk\\android-ndk-r25c\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "D:\\ndk\\android-ndk-r25c\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "D:\\ndk\\android-ndk-r25c\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "D:\\ndk\\android-ndk-r25c\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "C:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp",
+        "sdkFolder": "C:\\Users\\Pradeep Mishra\\AppData\\Local\\Android\\Sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "outputOptions": [],
+      "ninjaExe": "C:\\Users\\Pradeep Mishra\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe"
+    },
+    "prefabClassPaths": [],
+    "prefabPackages": [],
+    "prefabPackageConfigurations": [],
+    "stlType": "c++_shared",
+    "optimizationTag": "Debug"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "C:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\.cxx\\Debug\\2v183e5h\\prefab\\arm64-v8a",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "2v183e5hr2n3i1v3f675yq5t4h2t1d5e613m19v4y0634a2b3714r74b3u",
+  "configurationArguments": [
+    "-HC:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\libcxx_helper",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d24",
+    "-DANDROID_PLATFORM\u003dandroid-24",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DANDROID_NDK\u003dD:\\ndk\\android-ndk-r25c",
+    "-DCMAKE_ANDROID_NDK\u003dD:\\ndk\\android-ndk-r25c",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dD:\\ndk\\android-ndk-r25c\\build\\cmake\\android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\Pradeep Mishra\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\build\\intermediates\\cxx\\Debug\\2v183e5h\\obj\\arm64-v8a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\build\\intermediates\\cxx\\Debug\\2v183e5h\\obj\\arm64-v8a",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-BC:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\.cxx\\Debug\\2v183e5h\\arm64-v8a",
+    "-GNinja",
+    "-DANDROID_STL\u003dc++_shared"
+  ],
+  "stlLibraryFile": "D:\\ndk\\android-ndk-r25c\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+  "intermediatesParentFolder": "C:\\Users\\Pradeep Mishra\\AndroidStudioProjects\\SignMateApp\\OpenCV\\build\\intermediates\\cxx\\Debug\\2v183e5h"
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="338dp"
+        android:layout_height="50dp"
+
+        android:paddingTop="10dp"
+        android:background="@drawable/text_border"
+        android:text="Welcome  to  Sign  Mate"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="338dp"
+        android:layout_height="50dp"
+        android:paddingTop="15dp"
+        android:text="Developed By Team Empyrean"
+        android:textAlignment="center"
+        android:textAllCaps='false'
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="176dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="104dp"
+        android:paddingTop="15dp"
+        android:text="Sign Mate"
+        android:textAlignment="center"
+
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/main_b1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/main_b1"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+
+        app:backgroundTint="#D20277BD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="186dp"
+        android:layout_height="192dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/signmateapplogo"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

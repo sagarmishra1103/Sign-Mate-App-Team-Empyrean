@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard">
+
+    <Button
+        android:id="@+id/Dash_B1"
+        android:layout_width="168dp"
+        android:layout_height="163dp"
+        android:background="@drawable/text_border"
+        android:text="Gesture \n To \nVoice"
+        android:textAllCaps="true"
+        android:textSize="17dp"
+        app:backgroundTint="#88ACAF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1_tv1"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <TextView
+        android:id="@+id/p1_tv1"
+        android:layout_width="338dp"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:background="@drawable/text_border"
+
+        android:text="Dashboard"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/Dash_B2"
+        android:layout_width="168dp"
+        android:layout_height="163dp"
+        android:background="@drawable/text_border"
+        android:text="Voice \nTo \nGesture"
+        android:textAllCaps="true"
+        android:textSize="17dp"
+
+        app:backgroundTint="#AF8899"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684" />
+</androidx.constraintlayout.widget.ConstraintLayout>

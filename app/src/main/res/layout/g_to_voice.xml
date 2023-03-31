@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sample3"
+    >
+
+    <Button
+        android:id="@+id/gtv_b1"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/text_border"
+        android:text="capture"
+        android:textAllCaps="false"
+        app:backgroundTint="#BA4527A0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gtv_tv2"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <Button
+        android:id="@+id/gtv_b2"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/text_border"
+        android:text="Next"
+        android:textAllCaps="false"
+        app:backgroundTint="#BA4527A0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gtv_tv2"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <TextView
+        android:id="@+id/gtv_tv1"
+        android:layout_width="338dp"
+        android:layout_height="50dp"
+        android:background="@drawable/text_border"
+        android:paddingTop="10dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1100"
+        android:shadowDy="3000"
+        android:shadowRadius="100"
+        android:singleLine="true"
+        android:text="Gesture To Voice"
+        android:textAlignment="center"
+
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <TextView
+        android:id="@+id/gtv_tv2"
+        android:layout_width="340dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/text_border"
+        android:hint="Text"
+        app:backgroundTint="#A6C3F6DA"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:shadowColor="#000000"
+        android:textSize="15dp"
+        android:tooltipText="Output text "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/javaCameraView"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <TextView
+        android:id="@+id/gtv_tv3"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+
+        android:shadowColor="#000000"
+        android:text="Result:"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/gtv_tv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/javaCameraView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/javaCameraView"
+        android:layout_width="338dp"
+        android:layout_height="363dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#2A558B2F"
+        android:tooltipText="Cameraview for gesture detection "
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gtv_tv1"
+        app:layout_constraintVertical_bias="0.073"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

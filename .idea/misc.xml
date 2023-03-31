@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.154" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/drawable/box_round.xml" value="0.2155" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.154" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/drawable/rounded_corner.xml" value="0.2165" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/drawable/text_border.xml" value="0.154" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/layout/Page_1.xml" value="0.209375" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/layout/activity_main - Copy.xml" value="0.209375" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/layout/dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/layout/end_page.xml" value="0.22" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/layout/g_to_voice.xml" value="0.25" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/layout/gg_to_voice.xml" value="0.25" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/layout/login.xml" value="0.5" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/layout/page1.xml" value="0.209375" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/layout/sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/layout/start_page.xml" value="0.345703125" />
+        <entry key="..\:/Users/Pradeep Mishra/AndroidStudioProjects/SignMateApp/app/src/main/res/layout/v_to_gesture.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
