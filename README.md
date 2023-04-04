@@ -15,7 +15,7 @@
 	<ol>
 		<li>Clone the repository to your local machine.</li>
 		<li>Install the required software packages using pip or conda.</li>
-		<li>Run the app.py file to launch the app. 🚀</li>
+		<li>Run the Final.py file to launch the app. 🚀</li>
 	</ol>
 	<h2>Usage</h2>
 	<p>Once the app is launched, you can use your webcam to capture an image of your hand. The app will then analyze the image and detect the ASL letter that your hand is forming. 👨‍👩‍👧‍👦📹👨‍💻</p>
