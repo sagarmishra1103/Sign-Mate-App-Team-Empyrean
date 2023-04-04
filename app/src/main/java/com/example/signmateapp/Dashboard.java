@@ -18,7 +18,7 @@ public class Dashboard extends AppCompatActivity {
         b1 = findViewById(R.id.Dash_B1);
         b1.setOnClickListener(
                 v -> {
-                    Intent i = new Intent( Dashboard.this,gToVoice.class);
+                    Intent i = new Intent( Dashboard.this,gToVoice.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(i);
                 }
         );

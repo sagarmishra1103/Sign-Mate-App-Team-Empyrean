@@ -18,6 +18,9 @@
         android:name="android.hardware.camera.front.autofocus"
         android:required="false" />
 
+
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -27,20 +30,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SignMateApp"
-        tools:targetApi="s">
+        tools:targetApi="s"
+        android:hardwareAccelerated="true">
         <activity android:name=".Login" />
-        <activity android:name=".Dashboard" />
-        <activity android:name=".gToVoice" />
+
+
         <activity android:name=".signUp" />
         <activity android:name=".vToGesture" />
         <activity android:name= ".endPage" />
-        <activity android:name= ".objectDetectorClass"
-            tools:ignore="Instantiatable" />
+        <activity android:name= ".Dashboard"/>
+        <activity android:name= ".gToVoice"/>
 
 
         <activity
             android:name=".MainActivity"
             android:exported="true">
+            <meta-data
+                android:name="org.opencv.CameraLoader"
+                android:value="opencv" />
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

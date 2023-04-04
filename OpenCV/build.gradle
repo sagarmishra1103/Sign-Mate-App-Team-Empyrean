@@ -101,7 +101,7 @@ println "OpenCV: " +openCVersionName + " " + project.buildscript.sourceFile
 
 android {
     compileSdkVersion 33
-
+    ndkVersion "25.2.9519653"
     defaultConfig {
         minSdkVersion 24
         targetSdkVersion 33
@@ -111,8 +111,11 @@ android {
 
         externalNativeBuild {
             cmake {
+
                 arguments "-DANDROID_STL=c++_shared"
+
                 targets "opencv_jni_shared"
+
             }
         }
     }
@@ -138,6 +141,7 @@ android {
             java.srcDirs = ['java/src']
             aidl.srcDirs = ['java/src']
             res.srcDirs = ['java/res']
+
             manifest.srcFile 'java/AndroidManifest.xml'
         }
     }

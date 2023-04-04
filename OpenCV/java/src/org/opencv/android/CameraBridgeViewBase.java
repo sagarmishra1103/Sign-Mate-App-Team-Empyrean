@@ -136,6 +136,8 @@ public abstract class CameraBridgeViewBase extends SurfaceView implements Surfac
          * TODO: pass the parameters specifying the format of the frame (BPP, YUV or RGB and etc)
          */
         public Mat onCameraFrame(CvCameraViewFrame inputFrame);
+
+        List<? extends CameraBridgeViewBase> getCameraViewList();
     };
 
     protected class CvCameraViewListenerAdapter implements CvCameraViewListener2  {
@@ -165,6 +167,11 @@ public abstract class CameraBridgeViewBase extends SurfaceView implements Surfac
             };
 
             return result;
+        }
+
+        @Override
+        public List<? extends CameraBridgeViewBase> getCameraViewList() {
+            return null;
         }
 
         public void setFrameFormat(int format) {

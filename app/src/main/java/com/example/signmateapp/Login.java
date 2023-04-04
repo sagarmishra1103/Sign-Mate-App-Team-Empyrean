@@ -2,6 +2,7 @@ package com.example.signmateapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -9,6 +10,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import org.opencv.android.OpenCVLoader;
 
 
 public class Login extends AppCompatActivity {
@@ -22,6 +25,7 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
+        if (OpenCVLoader.initDebug()) Log.d("OpenCV App", "Success.....");
 
         user = findViewById(R.id.user1);
         pass = findViewById(R.id.pass1);
