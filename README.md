@@ -2,7 +2,10 @@
 
 <body>
         <h1>Sign-Mate</h1>
+	<h2>Project Video's Link:</h2>
+	<a href="https://youtu.be/gVQK36NoIaU">Video Link</a>
 	<h1>Welcome to our Sign-Mate App!</h1>
+	
 	<p>This app is built using TensorFlow, OpenCV, and MediaPipe to recognize American Sign Language (ASL) letters from A to Z. Our model was trained using Google Teachable Machine. 🤖🧠💻</p>
 	<h2>Requirements</h2>
 	<p>To run our Sign Detection App, you will need the following software packages installed on your computer:</p>
