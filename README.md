@@ -1,9 +1,5 @@
-# Sign-Mate-App
-
 <body>
         <h1>Sign-Mate</h1>
-	<h2>The Link of the project Video --></h2>
-	<a href="https://youtu.be/gVQK36NoIaU">Click Here to watch the video</a>
 	<h1>Welcome to our Sign-Mate App!</h1>
 	
 	<p>This app is built using TensorFlow, OpenCV, and MediaPipe to recognize American Sign Language (ASL) letters from A to Z. Our model was trained using Google Teachable Machine. 🤖🧠💻</p>
@@ -40,6 +36,8 @@
 		<li>Shivsagar Mishra <a href="https://github.com/sagarmishra1103">(sagarmishra1103)</a></li>
 		<li>Gayatri Mestry <a href="https://github.com/agyaa">(agyaa)</a></li>
 	</ol>
+	
+	[Video Link](https://youtu.be/gVQK36NoIaU)
 	
 </body>
 
