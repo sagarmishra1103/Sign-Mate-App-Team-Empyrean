@@ -18,20 +18,10 @@ public class MainActivity extends AppCompatActivity {
         b1 =  findViewById(R.id.main_b1);
         iv1 = findViewById(R.id.iv1);
 
-        Thread thread =new Thread() {
-         public void run(){
-             try{
-                 sleep(4000);
-             }
-             catch(Exception e){
-                 e.printStackTrace();
-             }
-             finally {
-                 Intent i = new Intent(MainActivity.this, Login.class);
-                 startActivity(i);
-            }
-         }
-        };
-         thread.start();
+        b1.setOnClickListener(
+                v -> {
+                    Intent i = new Intent(MainActivity.this, Login.class);
+                    startActivity(i);
+                });
         }
 }
