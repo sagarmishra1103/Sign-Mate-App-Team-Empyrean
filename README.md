@@ -37,6 +37,6 @@
 		<li>Gayatri Mestry <a href="https://github.com/agyaa">(agyaa)</a></li>
 	</ol>
 	
-	<a href="https://youtu.be/gVQK36NoIaU">Video Link</a>
+	Video Link - https://youtu.be/gVQK36NoIaU
 </body>
 
